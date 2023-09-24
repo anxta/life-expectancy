@@ -8,10 +8,9 @@ autor: @anamo
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import statistics as stats 
-
+ 
 # Creating Data Frames 
-df_life= pd.read_csv('C:/Users/anamo/Downloads/life expectancy.csv')
+df_life= pd.read_csv('/kaggle/input/life-expectancy-and-socio-economic-world-bank')
 print(df_life.head())
 
 #Counting missing values and filling with 0 
