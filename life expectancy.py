@@ -10,7 +10,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
  
 # Creating Data Frames 
-df_life= pd.read_csv('/kaggle/input/life-expectancy-and-socio-economic-world-bank')
+df_life= pd.read_csv('/kaggle/input/life-expectancy-and-socio-economic-world-bank/life expectancy.csv')
+print(df_life.head())
+
 print(df_life.head())
 
 #Counting missing values and filling with 0 
